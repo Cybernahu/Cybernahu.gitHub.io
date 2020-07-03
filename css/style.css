@@ -14,7 +14,7 @@
     height: 40px;
     width: 10%;
     border-radius: 33px;
-    background-color: rgb(145, 255, 0);
+    background-color: rgb(253, 115, 157);
     font-size: 15px;
     font-family: 'Righteous', cursive;
 }
@@ -68,3 +68,8 @@ body {
     border: 2px solid red;
     text-decoration-color: red;
 }
+.footer{
+    position: absolute;
+    bottom: 0%;
+}
+

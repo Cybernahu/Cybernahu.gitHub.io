@@ -11,7 +11,7 @@ var agregarTarea = function(){
         enlace = document.createElement("a"),
         contenido = document.createTextNode(tarea);
     if( tarea === "" ){
-        tareaInput.setAttribute("placeholder", "Agrega una tarea valida");
+        tareaInput.setAttribute("placeholder", "La tarea no es valida");
         tareaInput.className = "error";
         return false;
     }
